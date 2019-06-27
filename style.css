@@ -1,13 +1,22 @@
 /* CSS files add styling rules to your content */
 
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('code_light-webfont.woff2') format('woff2'),
+         url('code_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-  font-family:  "Helvetica Neue";
+  font-family:  "code_lightregular";
   margin: 2em;
   font-size: 15px;
 }
 
 h1 {
-  font-family:  "Helvetica Neue";
+  font-family:  "code_lightregular";
   font-size: 30px;
 
 }
