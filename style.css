@@ -1,22 +1,31 @@
 /* CSS files add styling rules to your content */
 
 @font-face {
-    font-family: 'code_lightregular';
-    src: url('code_light-webfont.woff2') format('woff2'),
-         url('code_light-webfont.woff') format('woff');
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-  font-family:  "code_lightregular";
+  font-family:  "gilroylight";
   margin: 2em;
   font-size: 15px;
 }
 
 h1 {
-  font-family:  "code_lightregular";
+  font-family:  "gilroyextrabold";
   font-size: 30px;
 
 }
