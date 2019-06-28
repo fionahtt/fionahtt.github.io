@@ -41,41 +41,37 @@ src: url('Gilroy-Regular.woff') format('woff');
 
 h1 {
   font-family:  "gilroymedium";
-  font-size: 40px;
   text-align: center;
-  line-height: 0px;
-  padding-top: 40px;
-  padding-bottom: 3px;
   letter-spacing: 3px;
+  padding-top: 40px;
+  
+  /*
+  font-size: 3vw;
+  */
 
 }
 
-body {
+p {
   font-family:  "gilroylight";
-  font-size: 20px;
   text-align: center;
+  margin-top: -15px;
+  
+  /*
+  font-size: 1.8vw;
+  */
+}
+
+div {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .sm:hover {
   opacity: 0.7;
 }
 
-.sm_em:hover {
-  opacity: 0.7;
-}
-
 .sm img{
-  width: 50px;
-  height: 50px;
-  margin-right: 18px;
-  margin-top: 25px;
-}
-
-.sm_em img{
-  width: 50px;
-  height: 50px;
-  margin-right: 18px;
-  margin-top: 25px;
-  opacity: 0.83;
+  width: 45px;
+  padding: 8px;
   
 }
