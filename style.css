@@ -41,17 +41,18 @@ src: url('Gilroy-Regular.woff') format('woff');
 
 h1 {
   font-family:  "gilroymedium";
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   line-height: 0px;
   padding-top: 40px;
   padding-bottom: 3px;
+  letter-spacing: 3px;
 
 }
 
 body {
   font-family:  "gilroylight";
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -65,15 +66,16 @@ body {
 
 .sm img{
   width: 50px;
-  height:50px;
+  height: 50px;
   margin-right: 18px;
   margin-top: 25px;
 }
 
 .sm_em img{
   width: 50px;
-  height:50px;
+  height: 50px;
   margin-right: 18px;
   margin-top: 25px;
   opacity: 0.83;
+  
 }
