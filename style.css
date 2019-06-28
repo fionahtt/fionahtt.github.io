@@ -44,10 +44,7 @@ h1 {
   text-align: center;
   letter-spacing: 3px;
   padding-top: 40px;
-  
-  /*
-  font-size: 3vw;
-  */
+  font-size: 40px;
 
 }
 
@@ -55,10 +52,7 @@ p {
   font-family:  "gilroylight";
   text-align: center;
   margin-top: -15px;
-  
-  /*
-  font-size: 1.8vw;
-  */
+  font-size: 20px;
 }
 
 div {
