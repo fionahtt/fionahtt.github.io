@@ -74,20 +74,23 @@ div {
 .projects {
   box-sizing:border-box;
   background-color:#a8d0e6;
-  color: white;
   padding-top: 175px;
   height: 350px;
   margin-left: 3%;
   margin-top:45px;
-  
   float:left;
   width:29.3%;
+}
+
+.pro {
+  font-size: 30px;
+  color: white;
+  font-family:  "gilroybold";
 }
 
 .about {
   box-sizing:border-box;
   background-color:#374785;
-  color: white;
   padding-top: 175px;
   height: 350px;
   margin-left: 3%;
@@ -98,17 +101,29 @@ div {
   width:29.3%;
 }
 
+.ab{
+  font-size: 30px;
+  color: white;
+  font-family:  "gilroybold";
+}
+
 .resume{
   box-sizing:border-box;
   background-color:#f8e9a1;
-  color: white;
   padding-top: 175px;
   height: 350px;
   margin-left: 3%;
   margin-top:45px;
+  margin-bottom: 80px;
   
   float:left;
   width:29.3%;
+}
+
+.res{
+  font-size: 30px;
+  color: white;
+  font-family:  "gilroybold";
 }
 
 @media screen and (max-width:1000px) {
@@ -127,4 +142,18 @@ div {
 
 .resume:hover {
   opacity: 0.7;
+}
+
+.ft {
+  color: grey;
+  font-family: "gilroy";
+  font-size: 15px;
+  margin: 40px;
+  text-align: center;
+}
+
+hr{
+  width: 60%;
+  align: center;
+  border-width: 0.5px;
 }
