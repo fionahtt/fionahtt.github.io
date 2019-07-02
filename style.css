@@ -67,6 +67,7 @@ div {
 .sm img{
   width: 45px;
   padding: 8px;
+  margin-bottom: 10px;
   
 }
 
@@ -74,43 +75,45 @@ div {
   box-sizing:border-box;
   background-color:#a8d0e6;
   color: white;
-  padding-top: 150px;
-  height: 300px;
-  text-align: center;
+  padding-top: 175px;
+  height: 350px;
+  margin-left: 3%;
+  margin-top:45px;
   
   float:left;
-  width:33.3%;
+  width:29.3%;
 }
 
 .about {
   box-sizing:border-box;
   background-color:#374785;
   color: white;
-  padding-top: 150px;
-  height: 300px;
-  text-align: center;
+  padding-top: 175px;
+  height: 350px;
+  margin-left: 3%;
+  margin-top:45px;
   
   
   float:left;
-  width:33.3%;
+  width:29.3%;
 }
 
 .resume{
   box-sizing:border-box;
   background-color:#f8e9a1;
   color: white;
-  padding-top: 150px;
-  height: 300px;
-  text-align: center;
-  
+  padding-top: 175px;
+  height: 350px;
+  margin-left: 3%;
+  margin-top:45px;
   
   float:left;
-  width:33.3%;
+  width:29.3%;
 }
 
 @media screen and (max-width:1000px) {
   .projects, .about, .resume {
-    width:100%;
+    width:94%;
   }
 }
 
