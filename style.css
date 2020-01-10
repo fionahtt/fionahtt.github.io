@@ -157,3 +157,13 @@ hr{
   align: center;
   border-width: 0.5px;
 }
+
+.projpage {
+  font-size: 30px;
+  font-family:  "gilroylight";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
