@@ -149,7 +149,11 @@ div {
   font-family: "gilroylight";
   font-size: 15px;
   margin: 40px;
+  
+  position: fixed;
   text-align: center;
+  bottom: 0px;
+  width: 100%;
 }
 
 hr{
@@ -170,5 +174,4 @@ hr{
 
 a {
 	color: black;
-	background-color:#a8d0e6;
 }
