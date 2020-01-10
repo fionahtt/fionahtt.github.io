@@ -144,16 +144,12 @@ div {
   opacity: 0.7;
 }
 
-#footer {
+.ft {
   color: grey;
-  font-family: "gilroylight";
+  font-family: "gilroy";
   font-size: 15px;
-  
-  position: relative;
-  margin-top: -180px;
+  margin: 40px;
   text-align: center;
-  height: 180px;
-  clear: both;
 }
 
 hr{
