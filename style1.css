@@ -44,18 +44,22 @@ src: url('Gilroy-Regular.woff') format('woff');
 div {
   float: left;
   width: 30%;
-  background: #ccc;
   padding: 20px;
 }
 
-/*center image*/
-/*set height and width*/
+.image-contain {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.image-contain img {
+	width: 100px;
+}
 
 article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
 }
 
 @media (max-width: 600px) {
@@ -63,6 +67,17 @@ article {
     width: 100%;
     height: auto;
   }
+}
+
+h1 {
+  font-family:  "gilroymedium";
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+p {
+  font-family:  "gilroylight";
+  font-size: 20px;
 }
 
 
