@@ -54,14 +54,14 @@ div {
 }
 
 .image-contain img {
-	width: 300px;
-	padding: 50px;
+	width: 450px;
+	padding: 100px;
 }
 
 article {
   float: left;
-  padding: 20px;
-  width: 70%;
+  padding: 30px;
+  width: 60%;
 }
 
 @media (max-width: 600px) {
