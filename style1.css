@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+font-family: 'gilroybold';
+font-style: normal;
+font-weight: normal;
+src: url('Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'gilroymedium';
+font-style: normal;
+font-weight: normal;
+src: url('Gilroy-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'gilroyregular';
+font-style: normal;
+font-weight: normal;
+src: url('Gilroy-Regular.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/*center image*/
+/*set height and width*/
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
