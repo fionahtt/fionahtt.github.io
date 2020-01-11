@@ -50,10 +50,12 @@ div {
 .image-contain {
   text-align: center;
   vertical-align: middle;
+  
 }
 
 .image-contain img {
-	width: 100px;
+	width: 300px;
+	padding: 50px;
 }
 
 article {
@@ -71,7 +73,6 @@ article {
 
 h1 {
   font-family:  "gilroymedium";
-  letter-spacing: 3px;
   font-size: 40px;
 }
 
@@ -80,4 +81,12 @@ p {
   font-size: 20px;
 }
 
+a {
+  color: black;
+}
+
+ul {
+  font-family:  "gilroylight";
+  font-size: 20px;
+}
 
