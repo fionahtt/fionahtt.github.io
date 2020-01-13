@@ -54,7 +54,7 @@ div {
 }
 
 .image-contain img {
-	width: 350px;
+	/*width: 320px;*/
 	padding: 30px;
 	margin-top: 50px;
 }
@@ -62,7 +62,7 @@ div {
 article {
   float: left;
   padding: 30px;
-  width: 67%;
+  width: 64%;
 }
 
 @media (max-width: 600px) {
