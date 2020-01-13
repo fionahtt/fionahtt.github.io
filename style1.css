@@ -98,9 +98,10 @@ button {
   text-align: center;
   text-decoration: none;
   font-family:  "gilroylight";
-  font-size: 10px;
+  font-size: 15px;
   border-radius: 30%;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+  margin: 4px 2px;
 }
 
 button:hover {
