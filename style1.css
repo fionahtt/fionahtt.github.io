@@ -54,7 +54,8 @@ div {
 }
 
 .image-contain img {
-	max-width: 320px;
+	max-width: 50%;
+	height: auto;
 	padding: 30px;
 	margin-top: 50px;
 }
@@ -65,7 +66,7 @@ article {
   width: 64%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   div, article {
     width: 100%;
     height: auto;
