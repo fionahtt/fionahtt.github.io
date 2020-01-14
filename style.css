@@ -158,7 +158,7 @@ hr{
   border-width: 0.5px;
 }
 
-article {
+.pb {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -169,7 +169,6 @@ article {
 .projpage {
   font-size: 30px;
   font-family:  "gilroylight";
-  text-align: center;
 }
 
 .pl {
