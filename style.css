@@ -171,3 +171,21 @@ hr{
 .pl {
 	color: black;
 }
+
+button {
+  background-color:#a8d0e6;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family:  "gilroylight";
+  font-size: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+  margin-top: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
