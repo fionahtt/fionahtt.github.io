@@ -71,7 +71,7 @@ div {
   
 }
 
-.projects {
+.resume {
   box-sizing:border-box;
   background-color:#a8d0e6;
   padding-top: 175px;
@@ -82,7 +82,7 @@ div {
   width:29.3%;
 }
 
-.pro {
+.res {
   font-size: 30px;
   color: white;
   font-family:  "gilroybold";
@@ -107,7 +107,7 @@ div {
   font-family:  "gilroybold";
 }
 
-.resume{
+.projects{
   box-sizing:border-box;
   background-color:#f8e9a1;
   padding-top: 175px;
@@ -120,7 +120,7 @@ div {
   width:29.3%;
 }
 
-.res{
+.pro{
   font-size: 30px;
   color: white;
   font-family:  "gilroybold";
@@ -176,7 +176,7 @@ hr{
 }
 
 button {
-  background-color:#a8d0e6;
+  background-color:#f8e9a1;
   border: none;
   color: white;
   text-align: center;
